@@ -1,0 +1,64 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    position: fixed;
+    margin-top: 20px;
+}
+.Container {
+    width: 360px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-top: 23%;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-top: 23%;
+}
+}
+#addToDo:hover {
+    background-color: darkgray;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
+
+.paragraph-styling {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: green;
+}
+
+li:nth-child(odd):hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 212, 206);
+}
+
+li:nth-child(even):hover {
+    color:black;
+    background-color: rgb(143, 231, 197);
+}
